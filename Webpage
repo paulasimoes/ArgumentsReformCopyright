@@ -10,9 +10,11 @@
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
-    width: 50%;
+    width: 30%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
+	margin-left: 10%;
+    margin-right: 10%; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -30,13 +32,21 @@
 <div class="row" style='text-align:center;'>
   <div class="column" style="background-color:#FFFFFF;">
     <h2>Column 1</h2>
-    <p>Some text..</p>
+    <p>
+<a href= "https://www.eff.org/deeplinks/2018/06/internet-luminaries-ring-alarm-eu-copyright-filtering-proposal" target="_blank">Vint Cerf, Tim Berners-Lee, and Dozens of Other Computing Experts Oppose Article 13</a></p>
   </div>
   <div class="column" style="background-color:#FFFFFF;">
     <h2>Column 2</h2>
-    <p>Some text..</p>
+    <p>
+<a href= "https://www.eff.org/deeplinks/2018/06/internet-luminaries-ring-alarm-eu-copyright-filtering-proposal" target="_blank">Vint Cerf, Tim 
+Berners-Lee, and Dozens of Other Computing Experts Oppose Article 13</a></p>
+	<p><a href="http://copybuzz.com/copyright/over-145-organisations-ask-council-to-stop-a-rushed-eu-reform/" target="_blank">Over 145 organisations representing a broad spectrum of stakeholders join forces to call upon the EU Member State Ambassadors to continue technical discussions on the copyright reform and to not grant the Bulgarian Council Presidency a mandate to negotiate with the European Parliament</a></p>
+	<p><a href="
+https://direitosdigitais.pt/comunicacao/22-noticias/48-56-organizacoes-escrevem-a-alex-voss-sobre-taxa-do-link" target="_blank">Letter to MEP Axel Voss by 56 Organizations Opposing Article 11º</a></p>
   </div>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Scale_%28PSF%29.png" alt="Scale" class="w3-image" style="width:100%">
+  
+   ¯\_(ツ)_/¯
 </div>
 
 
