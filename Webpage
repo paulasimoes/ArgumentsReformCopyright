@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+
+<div class="row" style='text-align:center;'>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Scale_%28PSF%29.png" alt="Scale" class="w3-image" style="width:100%">
+</div>
+
+
+
+</body>
+</html>
