@@ -8,6 +8,7 @@
 }
 
 .title {
+  overflow:auto;
   text-align:center;
   font-family: Helvetica, Arial, Sans-Serif;
 }
@@ -63,15 +64,27 @@
   width: 100%;
   z-index: -1;
 }
+
+.header {
+  width: 95%;
+  height: 100px;
+  position: absolute;
+}
+
+.langbox {
+  position: relative;
+  float: right;
+  padding: 0.3em;
+  border:1px solid #000;
+}
+
 </style>
-
-<div style="width:100px;height:25px;border:1px solid #000;text-align:center;"><a href="index.html">English</a></div>
-<div style="width:100px;height:25px;border:1px solid #000;text-align:center;"><a href="index_PT.html">Português</a></div>
-
 <title>European Copyright Reform: decisions, decisions...</title>
 </head>
 <body>
-
+<div class="header">
+<div class="langbox"><a href="index.html">English</a> | <a href="index_PT.html">Português</a></div>
+</div>
 <div class="title">
 <h1>European Copyright Reform: decisions, decisions...</h1>
 </div>
